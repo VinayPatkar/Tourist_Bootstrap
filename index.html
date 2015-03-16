@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="First web-site using Boostrap">
+    <meta name="author" content="Shubhra Rana & Vinay Patkar">
+    
+    <title>Leisure Getaways</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Custom CSS File -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Java Script to set interval timing for images-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('.carousel').carousel({interval: 7000});
+        });
+    </script>
+  </head>
+
+  <body style="background-color: #F0F8FF">
+
+    <div class="container">
+    <div class="container">
+	  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+	     
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+		      <a class="navbar-brand" href="#Home" style="margin-top:0"><h4><em><strong>Leisurely Getaways</strong></em></h4></a>
+        </div>
+		
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+			      <button type="submit" class="btn btn-success">Register</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div> <!-- container closed-->
+	  
+        </nav>
+	   </div>
+	  <div class="empt">&nbsp;</div>
+	  <div class="empt">&nbsp;</div>
+	  <div class="masthead" img src="images/pic1.jpg">
+        <nav>
+          <ul id="menu" class="nav nav-justified">
+            <li id="t1"><a href="#Home"><font color="#4B0082">Home</font></a></li>
+            <li id="t2" class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><font color="#4B0082">Tours<b class="caret"> </b> </font></a>
+				<ul class="dropdown-menu">
+                <li><a href="#" style="background-color: #F5FFFA"><em>Featured Destinations</em></a></li>
+                <li><a href="#" style="background-color: #F5FFFA"><em>Top Tours</em></a></li>
+                <li><a href="#" style="background-color: #F5FFFA"><em>Vacation Themes</em></a></li>
+				</ul>
+			</li>
+            <li id="t3" class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><font color="#4B0082">Packages <b class="caret"> </b></font></a>
+				<ul class="dropdown-menu">
+                <li><a href="#" style="background-color: #F5FFFA"><em>Vacation Package</em></a></li>
+                <li><a href="#" style="background-color: #F5FFFA"><em>Cruise Package</em></a></li>
+				</ul>
+			</li>
+            <li id="t4"  ><a href="#"><font color="#4B0082">Reviews</font></a></li>
+            <li id="t5"class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><font color="#4B0082">About <b class="caret"> </b></font></a>
+				<ul class="dropdown-menu">
+                <li><a href="#" style="background-color: #F5FFFA"><em>Services</em></a></li>
+                <li><a href="#" style="background-color: #F5FFFA"><em>Travel Blog</em></a></li>
+                <li><a href="#" style="background-color: #F5FFFA"><em>In the news !!</em></a></li>
+				</ul>
+			</li>
+			<li id="t6"  ><a href="#Contact Us"><font color="#4B0082">Contact Us</font></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+      
+          <div id="myCarousel" class="carousel container slide">
+          <!-- Dot Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Items -->
+          <div class="carousel-inner">
+            <div class="item"><img src="images/pic1.jpg" alt="" /></div>
+            <div class=" active item"><img src="images/pic2.jpg" alt="" /></div>
+            <div class="item"><img src="images/pic3.jpg" alt="" /></div>
+          </div>
+          <!-- Navigation -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+      </div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4" style="background-color:#1253a4">
+          <h2><font color="#ffed77"><strong><em>Top Deals !! Hurry</strong></em></font></h2>
+			<p><a href="#"><h4><font color="#a6d8de"> 40% off on 3 day 2 nights trip to Andaman </font></h4> </a></p>
+			<p><a href="#"><h4><font color="#a6d8de">Early bird offer for kanyakumari trip</font></h4></a></p>
+			<p><a href="#"><h4> <font color="#a6d8de">Festive trip @ heavy discounts !!!</font></h4></a></p>
+          <p><a class="btn btn-primary" href="#" role="button" style="float:right"><em>View more deals &raquo;</em></a></p>
+        </div>
+        <div class="col-lg-4" style="background-color:#800080">
+          <h2><font color="#ffed77"><strong><em>Travel Tourism and Blog</strong></em></font></h2>
+          <p><a href="http://www.incredibleindia.org/en/"><h4><font color="#a6d8de"> Incredible India</font></h4></p>
+          <p><a href="http://tourism.gov.in/"> <h4><font color="#a6d8de"> India Tourism</font></h4></p>
+		      <p><a href="http://charukesi.com/itchyfeet/"> <h4><font color="#a6d8de"> BLOG 1</font></h4></p>
+		      <p><a class=" btn btn-primary" href="#" role="button" style="float:right"><em>Read more &raquo;</em></a></p>
+		</div>
+        <div class="col-lg-4" style="background-color:#008080" >
+          <h2><font color="#ffed77"><strong><em>Accomodation</em></strong></font></h2>
+			
+                <p><a href="#"><h4><font color="#a6d8de">Cottages</font></h4></a></p>
+                <p><a href="#"><h4><font color="#a6d8de">Resorts</font></h4></a></p>
+                <p><a href="#"><h4><font color="#a6d8de">Camping</font></h4></a></p>
+				<p><a class=" btn btn-primary" href="#" role="button" style="float:right">More Options &raquo;</a></p>
+			
+        </div>
+      </div>
+      <!-- Site footer -->
+      <footer class="footer">
+        <p> <a href="#">Help   </a> &nbsp <a href="#"> Terms & Conditions</a> &nbsp &copy; Leisurely Getaways 2014</p>
+      </footer>
+    </body>
+</html>
